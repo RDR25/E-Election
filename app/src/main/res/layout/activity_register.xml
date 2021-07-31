@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".RegisterActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -15,6 +15,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -27,7 +29,7 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:id="@+id/email_id1"
+                android:id="@+id/email_id2"
                 android:layout_height="wrap_content"
                 android:hint="@string/email_id">
             </com.google.android.material.textfield.TextInputEditText>
@@ -45,7 +47,7 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:id="@+id/password1"
+                android:id="@+id/password2"
                 android:layout_height="wrap_content"
                 android:hint="@string/password"
                 android:inputType="textPassword"
@@ -53,10 +55,10 @@
 
             <com.google.android.material.button.MaterialButton
                 android:layout_margin="30dp"
-                android:id="@+id/login_btn1"
+                android:id="@+id/register2"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:text="@string/loginbtn"
+                android:text="@string/register"
                 android:backgroundTint="@color/lightblue"
                 android:padding="10dp"
                 android:layout_gravity="center"
@@ -64,11 +66,11 @@
 
             </com.google.android.material.button.MaterialButton>
             <Button
-                android:id="@+id/register1"
+                android:id="@+id/login_btn2"
                 android:layout_marginBottom="30sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/register"
+                android:text="@string/loginbtn"
                 android:textColor="@color/lightblue"
                 android:gravity="center"
                 android:layout_gravity="center"
@@ -76,8 +78,6 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-
     </androidx.cardview.widget.CardView>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

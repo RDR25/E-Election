@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E_Election</string>
+    <string name="email_id">ఇమెయిల్ ఐడి</string>
+    <string name="password">పాస్వర్డ్</string>
+    <string name="loginbtn">ప్రవేశించండి</string>
+    <string name="register">రిజిస్టర్</string>
+</resources>
